@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,-160,0">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="116,96,0,0" TextWrapping="Wrap" Text="Hello there." VerticalAlignment="Top" Height="89" Width="284" FontSize="36"/>
 
     </Grid>
 </Page>
